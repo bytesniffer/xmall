@@ -47,6 +47,16 @@
         <mail.version>1.5.0-b01</mail.version>
         <hutool.version>4.0.5</hutool.version>
     </properties>
+    <modules>
+      <module>xmall-common</module>
+      <module>xmall-manager</module>
+      <module>xmall-front-web</module>
+      <module>xmall-manager-web</module>
+      <module>xmall-search</module>
+      <module>xmall-sso</module>
+      <module>xmall-content</module>
+
+    </modules>
     <dependencyManagement>
         <dependencies>
             <!-- 时间操作组件 -->
